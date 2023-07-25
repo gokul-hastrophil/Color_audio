@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 72px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    opacity: .8;
+}
+body{
+    animation: blink 1ms infinite;
+    background-size: fixed;
+    background-image: rgb(67, 220, 82),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfPrtr9ENuvx_4gFl7OdYpNx2Ext4R201Dpw&usqp=CAU')
+
+    
+    
+}
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
